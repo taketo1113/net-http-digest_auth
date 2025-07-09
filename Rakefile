@@ -5,7 +5,6 @@ require 'hoe'
 
 Hoe.plugin :git
 Hoe.plugin :minitest
-Hoe.plugin :travis
 
 Hoe.spec 'net-http-digest_auth' do
   developer 'Eric Hodel', 'drbrain@segment7.net'
